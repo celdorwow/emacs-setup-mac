@@ -5,7 +5,7 @@
 
 ;; Resize window
 (setq frame-inhibit-implied-resize t)
-(setq default-frame-alist '((left . 100) (top . 50) (width . 100) (height . 31)))
+(setq default-frame-alist '((left . 220) (top . 36) (width . 90) (height . 36)))
 (defun x/disable-scroll-bars (frame)
   (modify-frame-parameters frame '((horizontal-scroll-bars . nil)
                                    (vertical-scroll-bars . nil))))
